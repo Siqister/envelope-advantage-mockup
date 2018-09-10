@@ -1,0 +1,39 @@
+html,body,div,h1,h2,h3,p{
+	margin:0;
+	padding:0;
+}
+
+html,body{
+	height:100%;
+}
+
+.main{
+	height:100%;
+	margin:auto;
+	background:#F0F5FB;
+}
+.full-screen{
+	width:900px;
+	height:100%;
+	margin:auto;
+}
+#animation svg{
+	position:relative;
+	top:50%;
+	transform: translate(0,-50%);
+}
+.caption{
+	padding-left:470px;
+	box-sizing: border-box;
+	font-family: Helvetica, sans-serif;
+	font-weight: 300;
+	color: #253f54;
+}
+	.caption h3{
+		font-size: 2.5rem;
+		margin-bottom: 1.5rem;
+		font-weight: 300;
+	}
+	.caption p{
+		font-size: 1.25rem;
+	}
